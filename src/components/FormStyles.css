@@ -1,0 +1,45 @@
+label{
+
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    margin: auto;
+    max-width: 600px;
+    align-items: center;
+}
+
+.contact-btns{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.resumebtn{
+
+    padding: 2rem;
+}
+
+.resumebtn .btn{
+    
+    background-color: rgba(255, 215, 0);
+    color: #002959;
+    filter: drop-shadow(0 0 1rem #FF19FF);
+}
+
+form input, form textarea{
+
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #f4f4f4;
+}

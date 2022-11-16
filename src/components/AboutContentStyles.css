@@ -1,0 +1,86 @@
+.about{
+
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about .left{
+
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 550px;
+}
+
+.about .left p{
+
+    margin: 1.2rem 0;
+}
+
+.about .left p.aboutme{
+
+    color:#F0FFFF;
+}
+
+.about .right{
+
+    max-width: 750px;
+}
+
+.right .img-container{
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.right .img{
+
+    max-width: 90%;
+    border-radius: 1.5%;
+}
+
+.right .top{
+
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    padding-top: 50%;
+    z-index: 6;
+    filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+    filter: drop-shadow(0 0 2.5rem #329bfa);
+}
+
+.right .bottom{
+
+    grid-column: 4 / -1;
+    grid-row: 1;
+    z-index: 5;
+    padding-left: 10%;
+    border: 1px solid rgba(0, 30, 255, 0.548);
+    border-style: inset;
+    filter: brightness(35%);
+}
+
+.left .img{
+
+    max-width: 45%;
+    max-height: 45%;
+    border: 1px solid #333;
+    border-radius: 50%;
+}
+
+.biopic p{
+
+    font-family: Courier;
+    color: #56CBFF;
+    font-size: 1.2rem;
+    text-align: center;
+    text-shadow: 0 0 10px #fff;
+}
