@@ -41,6 +41,11 @@
     text-align: center;
 }
 
+.hero .content .hero-btns{
+
+    align-items: center;
+}
+
 .hero .content h1{
 
     font-size: 4rem;
@@ -58,7 +63,7 @@
 
 .content .btn{
 
-    margin: 1rem 0.2rem;
+    margin: 1rem 0.9rem;
 }
 
 @media screen and (max-width: 640px){
@@ -71,5 +76,11 @@
     .hero .content p{
     
         font-size: 1.4rem;
+    }
+
+    .hero .content .hero-btns{
+
+        display: flex;
+        flex-direction: column;
     }
 }
