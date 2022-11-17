@@ -46,6 +46,11 @@
     align-items: center;
 }
 
+.hero .content .hero-btns{
+
+    align-items: center;
+}
+
 .hero .content h1{
 
     font-size: 4rem;
