@@ -1,7 +1,7 @@
 import React from 'react'
 
 import "./FooterStyles.css";
-import { FaHome, FaPhone, FaMailBulk } from "react-icons/fa";
+import { FaHome, FaPhone, FaMailBulk, FaLinkedin } from "react-icons/fa";
 import footerimg from "../assets/footer-img.jpeg";
 
 const Footer = () => {
@@ -21,7 +21,7 @@ const Footer = () => {
                     <div className= "phone">
                         <h4 font-color= "#fff">
                             <FaPhone size= {20} style= {{color: "#fff", marginRight: "2rem"}}/>
-                            1-234-567-8910
+                            901-871-7623
                         </h4>
                     </div>
 
@@ -29,6 +29,15 @@ const Footer = () => {
                         <h4 font-color= "#fff">
                             <FaMailBulk size= {20} style= {{color: "#fff", marginRight: "2rem"}}/>
                             jlynnmail@gmail.com
+                        </h4>
+                    </div>
+
+                    <div className= "linkedin">
+                        <h4 font-color= "#fff">
+                            <FaLinkedin size= {20} style= {{color: "#fff", marginRight: "2rem"}}/>
+                            <a href= "https://www.linkedin.com/in/jeremy-lynn-79029a48">
+                                Connect with me on LinkedIn
+                            </a>
                         </h4>
                     </div>
                 </div>
