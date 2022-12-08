@@ -1,0 +1,30 @@
+.languages-heading{
+
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    color: #F5FFFA;
+    text-shadow: 0 0 6px #00aeffd0, 0 0 5px #00a2ff;
+}
+
+.language-logos{
+
+        max-width: 1140px;
+        margin: auto;
+        margin-bottom: 3.5rem;
+        padding: 2.5rem 0rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 30px;
+        place-items: center;
+        border: 1px solid #00aeffd0;
+        border-style: inset;
+}
+
+.language-logos img{
+
+    max-width: 35%;
+    margin: 0.5rem 0.5rem;
+    display: flex;
+    background-color: rgb(153, 204, 255, 25%);
+    border-radius: 5%;
+}

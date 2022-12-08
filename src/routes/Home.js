@@ -2,7 +2,7 @@ import React from 'react';
 
 import Navbar from '../components/Navbar';
 import HeroImg from '../components/HeroImg';
-import Work from '../components/Work';
+import Languages from "../components/Languages";
 import Footer from '../components/Footer';
 
 const Home = () => {
@@ -10,6 +10,7 @@ const Home = () => {
     <div>
       <Navbar/>
       <HeroImg/>
+      <Languages/>
       <Footer/>
     </div>
   )
