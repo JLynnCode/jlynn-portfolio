@@ -7,7 +7,8 @@ import WorkCardData from "./WorkCardData";
 const Work = () => {
     return(
         <div className= "work-container">
-            <h1 className= "project-heading">Projects</h1>
+            <h1 className= "project-heading">Collected Works</h1>
+            <p className= "project-subhead">Under continual development to implement planned improvements.</p>
             <div className= "project-container">
                 { WorkCardData.map((value, index) => {
                     return(
