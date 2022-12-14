@@ -2,6 +2,14 @@
 
     text-align: center;
     padding: 4rem 0 2rem 0;
+    text-shadow: 0 0 2px #00aeffd0, 0 0 4px #00a2ff;
+}
+
+.project-subhead{
+    
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    text-shadow: 0 0 2px #00aeffd0, 0 0 4px #00a2ff;
 }
 
 .project-title{
@@ -9,6 +17,7 @@
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+    text-shadow: 0 0 2px #00aeffd0, 0 0 4px #00a2ff;
 }
 
 .project-details p{
