@@ -4,7 +4,7 @@ import "./FormStyles.css";
 
 const Form = () => {
 
-    const resumeLink = "https://docs.google.com/document/d/16zFEs-Zri3KnExLdQ43Vi4ph15Eb1r6s/edit?usp=share_link&ouid=106817555572372441876&rtpof=true&sd=true";
+    const resumeLink = "https://docs.google.com/document/d/1XLFf1mnjzV3zroo3TmuZJLQBjkJPqaAj2-IeC4tzVJU/edit?usp=sharing";
 
     return(
         <div className= "form">
